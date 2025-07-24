@@ -21,7 +21,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
     public void registerStompEndpoints(StompEndpointRegistry registry) {
         registry.addEndpoint("/ws") // this path must match your frontend
                 .setAllowedOriginPatterns("*")
-                .setAllowedOrigins("http://localhost:5173") // ✅ allow frontend origin
+                .setAllowedOrigins("https://vybe-e616b.web.app") // ✅ allow frontend origin
                 .withSockJS(); // optional: use SockJS fallback
     }
 

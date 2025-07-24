@@ -14,7 +14,7 @@ import com.example.insta.repository.MessageRepository;
 
 @RestController
 @RequestMapping("/api/messages")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://vybe-e616b.web.app")
 public class MessageRestController {
 
     @Autowired

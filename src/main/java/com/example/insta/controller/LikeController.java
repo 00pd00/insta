@@ -23,7 +23,7 @@ import com.example.insta.repository.UserRepository;
 
 @RestController
 @RequestMapping("/api/likes")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://vybe-e616b.web.app")
 public class LikeController {
 
     @Autowired

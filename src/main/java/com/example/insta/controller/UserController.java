@@ -14,7 +14,7 @@ import com.example.insta.repository.UserRepository;
 
 @RestController
 @RequestMapping("/api/users")
-@CrossOrigin(origins = "http://localhost:5173", allowCredentials = "true")
+@CrossOrigin(origins = "https://vybe-e616b.web.app", allowCredentials = "true")
 public class UserController {
 
     @Autowired

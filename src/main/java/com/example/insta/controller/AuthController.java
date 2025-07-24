@@ -18,7 +18,7 @@ import jakarta.servlet.http.HttpSession;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "http://localhost:5173", allowCredentials = "true")
+@CrossOrigin(origins = "https://vybe-e616b.web.app", allowCredentials = "true")
 public class AuthController {
 
     @Autowired

@@ -24,7 +24,7 @@
 
 // @RestController
 // @RequestMapping("/api/messages")
-// @CrossOrigin(origins = "http://localhost:5173", allowCredentials = "true")
+// @CrossOrigin(origins = "https://vybe-e616b.web.app", allowCredentials = "true")
 // public class MessageController {
 
 //     @Autowired
